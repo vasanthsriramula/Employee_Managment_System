@@ -1,0 +1,72 @@
+Q)Types of stages of Git?
+
+We have three stages in git.
+
+Working Directory : 
+----------------------------
+	the file exists, but is not part of git's version control.
+
+staging area: 
+--------------------
+	the file has been added to git's version control but changes 
+	have not been committed
+
+Repository: 
+------------
+	the change has been committed 
+
+Diagram: git
+
+
+
+
+
+Remote repository github
+==========================
+	https://github.com/NiyazulHasan/practice
+
+
+Q)Write a git command to initialized empty repository?
+
+	git init
+
+
+Q)Write a git command to check the status? 
+
+	git status 
+
+Q)Write a git command to check the branch?
+
+	git branch 
+
+
+Q)Write a git command to add remote repository?
+
+	git remote add origin https://github.com/NiyazulHasan/practice
+
+
+Q)Write a git command to check the remote repository
+
+	git remote -v 
+
+Q)Write a git command to commit the changes?
+
+	git commit -m "comment here"
+
+
+Q)Write a git command to push the code to remote origin?
+	
+	git push -f origin main 
+
+
+Q)Write a git command to clone the project?
+
+	git clone <url>
+
+Q)Write a git command to pull request?
+
+	git pull <url>
+
+Q)Write a git command to move from master branch to main branch?
+
+	git branch --move master main
